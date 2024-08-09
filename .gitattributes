@@ -28,3 +28,33 @@
 *.o binary
 *.pdf binary
 *.zip binary
+
+
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# JavaScript files
+*.js text eol=lf
+
+# JSON files
+*.json text eol=lf
+
+# Markdown files
+*.md text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+
+# Batch files
+*.bat text eol=crlf
+
+# Binary files
+*.jpg binary
+*.png binary
+*.gif binary
+*.exe binary
+*.dll binary
+*.so binary
+*.o binary
+*.pdf binary
+*.zip binary
